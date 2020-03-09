@@ -136,6 +136,23 @@ namespace linq {
             var purchasesTotal = purchases.Sum (); {
                 Console.WriteLine ($"{purchasesTotal}");
             }
+
+            // What is our most expensive product?
+            var prices = new List<double> () {
+                879.45,
+                9442.85,
+                2454.63,
+                45.65,
+                2340.29,
+                34.03,
+                4786.45,
+                745.31,
+                21.76
+            };
+
+            var highestPrice = prices.Max (); {
+                Console.WriteLine ($"{highestPrice}");
+            }
         }
     }
 }
