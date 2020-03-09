@@ -98,6 +98,28 @@ namespace linq {
                 Console.WriteLine ($"{num2}");
             }
 
+            // Output how many numbers are in this list
+            var numbers3 = new List<int> () {
+                15,
+                8,
+                21,
+                24,
+                32,
+                13,
+                30,
+                12,
+                7,
+                54,
+                48,
+                4,
+                49,
+                96
+            };
+
+            var counting = numbers3.Count (); {
+                Console.WriteLine ($"{counting}");
+            }
+
         }
     }
 }
