@@ -9,7 +9,8 @@ namespace linq {
             // List<string> fruits = new List<string> () { "Lemon", "Apple", "Orange", "Lime", "Watermelon", "Loganberry" };
             var fruits = new List<string> () { "Lemon", "Apple", "Orange", "Lime", "Watermelon", "Loganberry" };
 
-            IEnumerable<string> LFruits = fruits.Where (fruit => {
+            // IEnumerable<string> LFruits = fruits.Where (fruit => {
+            var LFruits = fruits.Where (fruit => {
                 return fruit.StartsWith ("L");
             });
 
